@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Academia Alpha",
+    "city": "Madrid",
+    "country": "España",
+    "zipCode": "28001",
+    "type": "IDIOMS",
+    "createdAt": "2025-07-06T17:00:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 2,
+    "name": "Beta Institute",
+    "city": "Barcelona",
+    "country": "España",
+    "zipCode": "08005",
+    "type": "MUSIC",
+    "createdAt": "2025-07-06T17:05:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 3,
+    "name": "Gamma Learning",
+    "city": "Sevilla",
+    "country": "España",
+    "zipCode": "41002",
+    "type": "DANCE",
+    "createdAt": "2025-07-06T17:10:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 4,
+    "name": "Delta Education",
+    "city": "Valencia",
+    "country": "España",
+    "zipCode": "46003",
+    "type": "EDUCATION",
+    "createdAt": "2025-07-06T17:15:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 5,
+    "name": "Epsilon Academy",
+    "city": "Bilbao",
+    "country": "España",
+    "zipCode": "48001",
+    "type": "OTHERS",
+    "createdAt": "2025-07-06T17:20:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 6,
+    "name": "Zeta School",
+    "city": "Málaga",
+    "country": "España",
+    "zipCode": "29001",
+    "type": "IDIOMS",
+    "createdAt": "2025-07-06T17:25:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 7,
+    "name": "Eta College",
+    "city": "Zaragoza",
+    "country": "España",
+    "zipCode": "50004",
+    "type": "MUSIC",
+    "createdAt": "2025-07-06T17:30:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 8,
+    "name": "Theta Training",
+    "city": "Alicante",
+    "country": "España",
+    "zipCode": "03001",
+    "type": "DANCE",
+    "createdAt": "2025-07-06T17:35:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 9,
+    "name": "Iota Learn",
+    "city": "Murcia",
+    "country": "España",
+    "zipCode": "30001",
+    "type": "TRAINNING",
+    "createdAt": "2025-07-06T17:40:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 10,
+    "name": "Kappa Knowledge",
+    "city": "Palma",
+    "country": "España",
+    "zipCode": "07001",
+    "type": "OTHERS",
+    "createdAt": "2025-07-06T17:45:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  }
+]

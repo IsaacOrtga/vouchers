@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "academyId": 1,
+    "name": "Inglés A1 - Mañana",
+    "hour": "10:00",
+    "date": "Lunes",
+    "createdAt": "2025-07-06T18:00:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 2,
+    "academyId": 1,
+    "name": "Inglés B2 - Tarde",
+    "hour": "18:00",
+    "date": "Miércoles",
+    "createdAt": "2025-07-06T18:01:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 3,
+    "academyId": 2,
+    "name": "Piano Iniciación",
+    "hour": "11:00",
+    "date": "Martes",
+    "createdAt": "2025-07-06T18:02:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 4,
+    "academyId": 2,
+    "name": "Guitarra Avanzada",
+    "hour": "19:00",
+    "date": "Jueves",
+    "createdAt": "2025-07-06T18:03:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 5,
+    "academyId": 3,
+    "name": "Latin Dance - Principiantes",
+    "hour": "12:00",
+    "date": "Viernes",
+    "createdAt": "2025-07-06T18:04:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 6,
+    "academyId": 3,
+    "name": "Funky Kids",
+    "hour": "17:00",
+    "date": "Lunes",
+    "createdAt": "2025-07-06T18:05:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 7,
+    "academyId": 4,
+    "name": "Matemáticas ESO",
+    "hour": "10:00",
+    "date": "Miércoles",
+    "createdAt": "2025-07-06T18:06:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 8,
+    "academyId": 4,
+    "name": "Física Bachillerato",
+    "hour": "16:00",
+    "date": "Martes",
+    "createdAt": "2025-07-06T18:07:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 9,
+    "academyId": 5,
+    "name": "Yoga para todos",
+    "hour": "11:00",
+    "date": "Jueves",
+    "createdAt": "2025-07-06T18:08:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 10,
+    "academyId": 5,
+    "name": "Club de lectura",
+    "hour": "15:00",
+    "date": "Viernes",
+    "createdAt": "2025-07-06T18:09:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 11,
+    "academyId": 6,
+    "name": "Francés B1",
+    "hour": "13:00",
+    "date": "Lunes",
+    "createdAt": "2025-07-06T18:10:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 12,
+    "academyId": 6,
+    "name": "Alemán Conversación",
+    "hour": "18:00",
+    "date": "Martes",
+    "createdAt": "2025-07-06T18:11:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 13,
+    "academyId": 7,
+    "name": "Canto Moderno",
+    "hour": "10:00",
+    "date": "Miércoles",
+    "createdAt": "2025-07-06T18:12:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 14,
+    "academyId": 7,
+    "name": "Teoría Musical",
+    "hour": "14:00",
+    "date": "Jueves",
+    "createdAt": "2025-07-06T18:13:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 15,
+    "academyId": 8,
+    "name": "Flamenco Iniciación",
+    "hour": "19:00",
+    "date": "Viernes",
+    "createdAt": "2025-07-06T18:14:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 16,
+    "academyId": 8,
+    "name": "Ballet Clásico",
+    "hour": "10:00",
+    "date": "Lunes",
+    "createdAt": "2025-07-06T18:15:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 17,
+    "academyId": 9,
+    "name": "Entrenamiento Funcional",
+    "hour": "13:00",
+    "date": "Martes",
+    "createdAt": "2025-07-06T18:16:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 18,
+    "academyId": 9,
+    "name": "Preparación Oposiciones",
+    "hour": "17:00",
+    "date": "Miércoles",
+    "createdAt": "2025-07-06T18:17:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 19,
+    "academyId": 10,
+    "name": "Clases de Costura",
+    "hour": "11:00",
+    "date": "Jueves",
+    "createdAt": "2025-07-06T18:18:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 20,
+    "academyId": 10,
+    "name": "Taller de Cerámica",
+    "hour": "14:00",
+    "date": "Viernes",
+    "createdAt": "2025-07-06T18:19:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 21,
+    "academyId": 1,
+    "name": "Conversación Avanzada - Idiomas",
+    "hour": "16:00",
+    "date": "Lunes",
+    "createdAt": "2025-07-06T18:20:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 22,
+    "academyId": 4,
+    "name": "Refuerzo Escolar - Primaria",
+    "hour": "15:00",
+    "date": "Martes",
+    "createdAt": "2025-07-06T18:21:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 23,
+    "academyId": 9,
+    "name": "Fitness Grupal",
+    "hour": "20:00",
+    "date": "Miércoles",
+    "createdAt": "2025-07-06T18:22:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 24,
+    "academyId": 5,
+    "name": "Introducción a la Programación",
+    "hour": "18:00",
+    "date": "Jueves",
+    "createdAt": "2025-07-06T18:23:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  },
+  {
+    "id": 25,
+    "academyId": 7,
+    "name": "Historia del Arte - Música",
+    "hour": "10:00",
+    "date": "Viernes",
+    "createdAt": "2025-07-06T18:24:00Z",
+    "updatedAt": null,
+    "removedAt": null
+  }
+]
