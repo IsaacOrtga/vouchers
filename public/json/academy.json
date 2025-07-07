@@ -2,10 +2,10 @@
   {
     "id": 1,
     "name": "Academia Alpha",
-    "city": "Madrid",
-    "country": "España",
-    "zipCode": "28001",
     "type": "IDIOMS",
+    "address": "Calle Gran Vía 10, 1º Izq.",
+    "zipCode": "28013",
+    "locationId": 1,
     "createdAt": "2025-07-06T17:00:00Z",
     "updatedAt": null,
     "removedAt": null
@@ -13,10 +13,10 @@
   {
     "id": 2,
     "name": "Beta Institute",
-    "city": "Barcelona",
-    "country": "España",
-    "zipCode": "08005",
     "type": "MUSIC",
+    "address": "Avinguda Diagonal 450, Entlo. 2ª",
+    "zipCode": "08037",
+    "locationId": 2,
     "createdAt": "2025-07-06T17:05:00Z",
     "updatedAt": null,
     "removedAt": null
@@ -24,10 +24,10 @@
   {
     "id": 3,
     "name": "Gamma Learning",
-    "city": "Sevilla",
-    "country": "España",
-    "zipCode": "41002",
     "type": "DANCE",
+    "address": "Calle Sierpes 50, Bajo C",
+    "zipCode": "41004",
+    "locationId": 3,
     "createdAt": "2025-07-06T17:10:00Z",
     "updatedAt": null,
     "removedAt": null
@@ -35,10 +35,10 @@
   {
     "id": 4,
     "name": "Delta Education",
-    "city": "Valencia",
-    "country": "España",
-    "zipCode": "46003",
     "type": "EDUCATION",
+    "address": "Plaça de l'Ajuntament 1, 3º A",
+    "zipCode": "46002",
+    "locationId": 4,
     "createdAt": "2025-07-06T17:15:00Z",
     "updatedAt": null,
     "removedAt": null
@@ -46,10 +46,10 @@
   {
     "id": 5,
     "name": "Epsilon Academy",
-    "city": "Bilbao",
-    "country": "España",
-    "zipCode": "48001",
     "type": "OTHERS",
+    "address": "Gran Vía de Don Diego López de Haro 65, 4º D",
+    "zipCode": "48010",
+    "locationId": 5,
     "createdAt": "2025-07-06T17:20:00Z",
     "updatedAt": null,
     "removedAt": null
@@ -57,10 +57,10 @@
   {
     "id": 6,
     "name": "Zeta School",
-    "city": "Málaga",
-    "country": "España",
-    "zipCode": "29001",
     "type": "IDIOMS",
+    "address": "Alameda Principal 20, 2º C",
+    "zipCode": "29007",
+    "locationId": 6,
     "createdAt": "2025-07-06T17:25:00Z",
     "updatedAt": null,
     "removedAt": null
@@ -68,10 +68,10 @@
   {
     "id": 7,
     "name": "Eta College",
-    "city": "Zaragoza",
-    "country": "España",
-    "zipCode": "50004",
     "type": "MUSIC",
+    "address": "Paseo de la Independencia 25, 1º B",
+    "zipCode": "50001",
+    "locationId": 7,
     "createdAt": "2025-07-06T17:30:00Z",
     "updatedAt": null,
     "removedAt": null
@@ -79,10 +79,10 @@
   {
     "id": 8,
     "name": "Theta Training",
-    "city": "Alicante",
-    "country": "España",
-    "zipCode": "03001",
     "type": "DANCE",
+    "address": "Av. de la Estación 15, Entlo. C",
+    "zipCode": "03003",
+    "locationId": 8,
     "createdAt": "2025-07-06T17:35:00Z",
     "updatedAt": null,
     "removedAt": null
@@ -90,10 +90,10 @@
   {
     "id": 9,
     "name": "Iota Learn",
-    "city": "Murcia",
-    "country": "España",
-    "zipCode": "30001",
     "type": "TRAINNING",
+    "address": "Calle Platería 30, Bajo A",
+    "zipCode": "30004",
+    "locationId": 9,
     "createdAt": "2025-07-06T17:40:00Z",
     "updatedAt": null,
     "removedAt": null
@@ -101,10 +101,10 @@
   {
     "id": 10,
     "name": "Kappa Knowledge",
-    "city": "Palma",
-    "country": "España",
-    "zipCode": "07001",
     "type": "OTHERS",
+    "address": "Calle Jaime III 12, 5º Izq.",
+    "zipCode": "07012",
+    "locationId": 10,
     "createdAt": "2025-07-06T17:45:00Z",
     "updatedAt": null,
     "removedAt": null
