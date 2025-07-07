@@ -1,24 +1,14 @@
 import { Button, FormControl, InputLabel, MenuItem, Select } from "@mui/material";
-import { useEffect, useState } from "react";
 import type { AcademyType } from "../types/academy_type";
-import { getAcademies } from "../api/get";
 
-const FormComponent = () => {
-  const [academiesList, setAcademiesList] = useState<AcademyType[]>([]);
-  const [selectedAcademy, setSelectedAcademy] = useState<string | null>('');
- 
-  useEffect(() => {
-    const getAcademyList = async () => {
-    try {
-      const result = await getAcademies('', '');
-      console.log('Result: ', result)
-      setAcademiesList(result);
-    } catch (error) {
-      console.error('ERROR: ', error);
-    }      
-    };
-    getAcademyList();
-  }, []);
+interface FormComponentProps {
+selectedAcademy: string | null;
+setSelectedAcademy: React.Dispatch<React.SetStateAction<string | null >>;
+academiesList: AcademyType[];
+}
+
+const FormComponent = ({selectedAcademy, setSelectedAcademy, academiesList}: FormComponentProps) => {
+
   return (
     <>
     <FormControl fullWidth>

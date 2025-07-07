@@ -1,4 +1,4 @@
-export interface AcademyType {
+export type AcademyType = {
     id: number;
     name: string;
     city: string;

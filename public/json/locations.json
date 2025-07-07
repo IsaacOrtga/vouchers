@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "city": "Madrid",
+    "country": "España"
+  },
+  {
+    "id": 2,
+    "city": "Barcelona",
+    "country": "España"
+  },
+  {
+    "id": 3,
+    "city": "Sevilla",
+    "country": "España"
+  },
+  {
+    "id": 4,
+    "city": "Valencia",
+    "country": "España"
+  },
+  {
+    "id": 5,
+    "city": "Bilbao",
+    "country": "España"
+  },
+  {
+    "id": 6,
+    "city": "Málaga",
+    "country": "España"
+  },
+  {
+    "id": 7,
+    "city": "Zaragoza",
+    "country": "España"
+  },
+  {
+    "id": 8,
+    "city": "Alicante",
+    "country": "España"
+  },
+  {
+    "id": 9,
+    "city": "Murcia",
+    "country": "España"
+  },
+  {
+    "id": 10,
+    "city": "Palma",
+    "country": "España"
+  }
+]
