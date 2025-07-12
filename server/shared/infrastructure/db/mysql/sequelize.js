@@ -1,16 +1,19 @@
-const { Sequelize } = require('sequelize');
-require('dotenv').config();
+const mysql = require('mysql2/promise');
 
-const sequelize = new Sequelize(
-  process.env.DB_NAME,
-  process.env.DB_USER,
-  process.env.DB_PASSWORD,
-  {
-    host: process.env.DB_HOST,
-    dialect: 'mysql',
-    port: process.env.DB_PORT,
-    logging: false,
+(async () => {
+  try {
+    const connection = await mysql.createConnection({
+      host: 'localhost',
+      user: 'root',
+      password: 'toor',
+      port: 3306,
+    });
+
+    await connection.query(`CREATE DATABASE IF NOT EXISTS \`nombre_de_tu_base_de_datos\`;`);
+    console.log(`Database 'nombre_de_tu_base_de_datos' created or already exists.`);
+    await connection.end();
+  } catch (err) {
+    console.error('❌ Error al crear la base de datos:', err);
+    process.exit(1);
   }
-);
-
-module.exports = sequelize;
+})();
