@@ -5,12 +5,23 @@ interface FormComponentProps {
 selectedAcademy: string | null;
 setSelectedAcademy: React.Dispatch<React.SetStateAction<string | null >>;
 academiesList: AcademyType[];
+sendInformation: () => void;
 }
 
-const FormComponent = ({selectedAcademy, setSelectedAcademy, academiesList}: FormComponentProps) => {
-
+const FormComponent = ({selectedAcademy, setSelectedAcademy, academiesList, sendInformation}: FormComponentProps) => {
   return (
     <>
+     <FormControl fullWidth>
+      <InputLabel id="citySelector">Ciudad</InputLabel>
+      <Select
+        labelId="citySelector"
+        id="citySelector"
+        value={""}
+        label="City"
+        onChange={() => {}}
+      ></Select>
+    </FormControl>
+
     <FormControl fullWidth>
       <InputLabel id="selectAcademy">Elegir academia</InputLabel>
       <Select
@@ -22,8 +33,8 @@ const FormComponent = ({selectedAcademy, setSelectedAcademy, academiesList}: For
       >
         {academiesList.map((academy) => (
           <MenuItem
-          key={academy.id}
-          value={academy.name}
+          key={academy.name}
+          value={academy.id}
           >
             <em>{academy.name}</em>
           </MenuItem>
@@ -31,27 +42,19 @@ const FormComponent = ({selectedAcademy, setSelectedAcademy, academiesList}: For
         }
       </Select>
     </FormControl>
+
     <FormControl fullWidth>
-      <InputLabel id="randomSelector">Búsqueda aleatoria</InputLabel>
+      <InputLabel id="serviceSelector">Tipo de servicio</InputLabel>
       <Select
-        labelId="randomSelector"
-        id="randomSelector"
+        labelId="serviceSelector"
+        id="serviceSelector"
         value={""}
         label="Random"
         onChange={() => {}}
       ></Select>
     </FormControl>
-       <FormControl fullWidth>
-      <InputLabel id="citySelector">Ciudad</InputLabel>
-      <Select
-        labelId="citySelector"
-        id="citySelector"
-        value={""}
-        label="City"
-        onChange={() => {}}
-      ></Select>
-    </FormControl>
-    <Button variant="contained">Continuar</Button>
+  
+    <Button variant="contained" onClick={sendInformation}>Continuar</Button>
     </>
   );
 };
