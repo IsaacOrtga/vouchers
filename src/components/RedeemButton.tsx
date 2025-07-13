@@ -1,6 +1,6 @@
 import { Button } from "@mui/material"
 
-const ReedemButton = () => {
+const RedeemButton = () => {
   return (
     <>
         <Button variant="outlined">Tengo mi bono</Button>
@@ -8,4 +8,4 @@ const ReedemButton = () => {
   )
 }
 
-export default ReedemButton
+export default RedeemButton
