@@ -2,6 +2,7 @@
 
 :root{
   --primary-color:  #6631D7;
+   --primary-color-opacity:  rgba(102, 49, 215, .3);
 }
 
 body {
