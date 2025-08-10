@@ -1,6 +1,6 @@
 const { DataTypes } = require('sequelize');
 const sequelize = require('../../shared/infrastructure/db/mysql/sequelize');
-
+//comment test
 const User = sequelize.define('User', {
   name: {
     type: DataTypes.STRING,
