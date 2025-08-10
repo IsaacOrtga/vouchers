@@ -1,19 +1,29 @@
-// index.js
+// server/index.js
 const express = require('express');
+const sequelize = require('./shared/infrastructure/db/mysql/sequelize');
+
 const app = express();
-const PORT =  3000;
+const PORT = 3000;
 
-
-
-// Middleware para parsear JSON
 app.use(express.json());
 
-// Ruta de prueba
-app.get('/', (req, res) => {
-  res.send('¡Servidor funcionando! 🚀');
-});
+app.get('/', (_, res) => res.send('¡Servidor funcionando! 🚀'));
 
-// Iniciar el servidor
-app.listen(PORT, () => {
-  console.log(`Servidor escuchando en http://localhost:${PORT}`);
-});
+async function start() {
+  try {
+    await sequelize.authenticate();
+    console.log('✅ Conectado a la base de datos');
+
+    await sequelize.sync({ alter: true });
+    console.log('📦 Tablas sincronizadas correctamente');
+
+    app.listen(PORT, () =>
+      console.log(`🚀 Servidor escuchando en http://localhost:${PORT}`)
+    );
+  } catch (err) {
+    console.error('❌ Error al iniciar el servidor:', err);
+    process.exit(1);
+  }
+}
+
+start();
